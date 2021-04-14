@@ -6,5 +6,5 @@ urlpatterns = [
     # 実行処理部：views.index
     # パス名部：このPathに'index'という名前を設定
     path('', views.index, name='index'),
-    path('next', views.next, name='next')
+    path('form', views.form, name='form'),
 ]
